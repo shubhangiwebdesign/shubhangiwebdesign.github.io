@@ -97,10 +97,10 @@ body { overflow-x: hidden; }
 }
 .tm-banner-title,
 .tm-banner-subtitle {
-	color: black;
+	color: #ffff99;
 }
 .tm-banner-title {	
-	font-size: 74px;
+	font-size: 50px;
 	font-weight: 600;
 }
 .tm-banner-subtitle { font-size: 34px; }
