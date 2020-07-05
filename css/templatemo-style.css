@@ -54,8 +54,8 @@ body { overflow-x: hidden; }
 .tm-nav li a.active,
 .tm-nav li a:focus,
 .tm-nav li a:hover {
-	background: #cc99ff;
-	color: white;
+	background:#ccffff;
+	color: purple;
 }
 /*weather*/
 #weather{
@@ -97,7 +97,7 @@ body { overflow-x: hidden; }
 }
 .tm-banner-title,
 .tm-banner-subtitle {
-	color: white;
+	color: black;
 }
 .tm-banner-title {	
 	font-size: 74px;
@@ -528,7 +528,7 @@ border-color: #0000cc; }
 }
 .tm-testimonials-title {
 	background-color: #dd99ff;
-	color: #b300b3;
+	color:black;
 	padding: 20px;
 	text-align: center;
 	text-transform: uppercase;
