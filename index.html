@@ -20,7 +20,7 @@
   		<div class="container">
   			<div class="row">
   				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-  					<a href="#" class="tm-site-name">BookVacation</a>	
+  					<a class="tm-site-name">BookVacation</a>	
   				</div>
 	  			<div class="col-lg-6 col-md-8 col-sm-9">
 	  				<div class="mobile-menu-icon">
@@ -35,7 +35,7 @@
 						</ul>
 					</nav>		
 	  			</div>	
-	  			<!-- weather widget start --><a target="_blank" href="https://www.accuweather.com"><img src="https://w.bookcdn.com/weather/picture/13_18114_1_1_fff5d9_158_fff5d9_333333_08488D_3_fff5d9_333333_0_6.png?scode=124&domid=579&anc_id=1520"  alt="booked.net"/></a><!-- weather widget end -->
+	  			<!-- weather widget start --><a target="_blank" href="https://www.accuweather.com"><img src="https://w.bookcdn.com/weather/picture/13_18114_1_1_fff5d9_158_fff5d9_333333_08488D_3_fff5d9_333333_0_6.png?scode=124&domid=579&anc_id=1520"  alt="weather"/></a><!-- weather widget end -->
   			</div>			
   			</div>
   		</div>	  	
@@ -49,25 +49,25 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Plan The Best Holiday</h1>
 					
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+					<a class="tm-banner-link">Learn More</a>	
 				</div>
-				<img src="img/banner-1.jpg" alt="image" />	
+				<img src="img/banner-1.jpg" alt="image1" />	
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Incredible Holiday Locations</h1>
 				
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+					<a class="tm-banner-link">Learn More</a>	
 				</div>
-		      <img src="img/banner-2.jpg" alt="image" />
+		      <img src="img/banner-2.jpg" alt="image2" />
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Affordable Holiday Packages</h1>
 					
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+					<a class="tm-banner-link">Learn More</a>	
 				</div>
-		      <img src="img/banner-3.jpg" alt="image" />
+		      <img src="img/banner-3.jpg" alt="image3" />
 		    </li>
 		  </ul>
 		</div>	
@@ -81,10 +81,10 @@
 				<div class="tm-home-box-1">
 					<ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
 					    <li role="presentation" class="active">
-					    	<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
+					    	<a  aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
 					    </li>
 					    <li role="presentation">
-					    	<a href="#car" aria-controls="car" role="tab" data-toggle="tab">CarRental</a>
+					    	<a aria-controls="car" role="tab" data-toggle="tab">CarRental</a>
 					    </li>
 					</ul>
 
@@ -96,6 +96,7 @@
 									<div class="tm-form-inner">
 										<div class="form-group">
 							            	 <select class="form-control" id="hotelvalue" required="required">
+										 <label for="hotelvalue">Hotel:</label>
 							            	 	<option value="">-- Select Hotel --</option>
 							            	 	<option value="shangrila">Shangri-La</option>
 												<option value="chatrium">Chatrium</option>
@@ -105,6 +106,7 @@
 							          	</div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker1'>
+										<label for="date1">Check-in Date:</label>
 							                    <input type='text' class="form-control" id="date1" placeholder="Check-in Date" required />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
@@ -113,6 +115,7 @@
 							            </div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker2'>
+										<label for="date2">Check-Out Date:</label>
 							                    <input type='text' class="form-control" id="date2" placeholder="Check-out Date" required />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
@@ -121,6 +124,7 @@
 							            </div>
 							            <div class="form-group margin-bottom-0">
 							                <select class="form-control" id="guestvalue" required="required">
+										<label for="guestvalue">Guest:</label>
 							            	 	<option value="" >-- Guests -- </option>
 							            	 	<option value="1">1</option>
 												<option value="2">2</option>
@@ -141,7 +145,8 @@
 								<form action="#" method="post" class="hotel-search-form">
 									<div class="tm-form-inner">
 										<div class="form-group">
-							            	 <select class="form-control">
+							            	 <select class="form-control" id="carmodel">
+										 <label for="carmodel">Car:</label>
 							            	 	<option value="">-- Select Model -- </option>
 							            	 	<option value="shangrila">BMW</option>
 												<option value="chatrium">Mercedes-Benz</option>
@@ -151,6 +156,7 @@
 							          	</div>
 							          	<div class="form-group">
 							                <div class='input-group date-time' id='datetimepicker3'>
+										<label for="date3">Pickup Date:</label>
 							                    <input type='text' class="form-control" id="date3" placeholder="Pickup Date" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
@@ -159,6 +165,7 @@
 							            </div>
 							          	<div class="form-group">
 							                <div class='input-group date-time' id='datetimepicker4'>
+										<label for="date4">Return Date:</label>
 							                    <input type='text' class="form-control" id="date4" placeholder="Return Date" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
@@ -166,7 +173,8 @@
 							                </div>
 							            </div>
 							            <div class="form-group">
-							            	 <select class="form-control">
+							            	 <select class="form-control" id="seat">
+										 <label for="seat">Options:</label>
 							            	 	<option value="">-- Options -- </option>
 							            	 	<option value="">Child Seat</option>
 												<option value="">GPS Navigator</option>
@@ -186,8 +194,8 @@
 
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
-					<img src="img/index-01.jpg" alt="image" class="img-responsive">
-					<a href="#">
+					<img src="img/index-01.jpg" alt="image1" class="img-responsive">
+					
 						<div class="tm-green-gradient-bg tm-city-price-container">
 							<span>New York</span>
 							<span>6,600Euros</span>
@@ -198,7 +206,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
 					<img src="img/index-02.jpg" alt="image" class="img-responsive">
-					<a href="#">
+				
 						<div class="tm-red-gradient-bg tm-city-price-container">
 							<span>Paris</span>
 							<span>4,200Euros</span>
@@ -223,9 +231,9 @@
 						<h3>Affordable Prices</h3>
 						<p class="tm-date">28 March 2016</p>
 						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
 						</div>
 					</div>
 				</div>
@@ -235,9 +243,9 @@
 						<h3>Incredible Holiday Locations</h3>
 						<p class="tm-date">26 March 2016</p>
 						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
 						</div>
 					</div>
 				</div>
@@ -247,9 +255,9 @@
 						<h3>Amazing Destinations</h3>
 						<p class="tm-date">24 March 2016</p>
 						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
 						</div>
 					</div>
 				</div>
@@ -259,9 +267,9 @@
 						<h3>Tourist-Friendly Locations</h3>
 						<p class="tm-date">22 March 2016</p>
 						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
+							<a class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
 						</div>
 					</div>
 				</div>
