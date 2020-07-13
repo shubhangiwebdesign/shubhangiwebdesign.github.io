@@ -200,7 +200,7 @@ body { overflow-x: hidden; }
 .tm-yellow-btn:focus {
 	background-color: #ff66ff;
 }
-.tm-form-inner { padding: 35px 30px 5px; }
+.tm-form-inner { padding: 35px 30px 5px; overflow:scroll;}
 
 /*http://cssdeck.com/labs/different-css3-box-shadows-effects*/
 /*==================================================
