@@ -239,23 +239,28 @@ body { overflow-x: hidden; }
 	width: 346px;
 	height: 436px;
 	border:solid 3px green;
+	font-size:14px;
 }
 .tm-home-box-1-center {
 	margin: 0 auto;
+	font-size:14px;
 }
 .tm-home-box-1-right,
 .tm-home-box-2-right {
 	margin-left: auto;
 	border:solid 3px green;
+	font-size:14px;
 }
 .input-group-addon { border-radius: 0; }
 #hotelCarTabs {
 	border-bottom: none;
 	height: 52px;
+	font-size:14px;
 }
 #hotelCarTabs li {
 	width: 50%;
 	height: 100%;
+	font-size:14px;
 }
 #hotelCarTabs > li > a {
 	margin-right: 0;
@@ -268,6 +273,7 @@ body { overflow-x: hidden; }
 	border-radius: 0;
 	color: #5C4905;
 	font-weight: 600;
+	font-size:14px;
 }
 #hotelCarTabs > li > a:hover,
 #hotelCarTabs > li > a:focus {
