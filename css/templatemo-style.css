@@ -249,7 +249,7 @@ body { overflow-x: hidden; }
 .tm-home-box-1-right,
 .tm-home-box-2-right {
 	margin-left: auto;
-	border:solid 3px green;
+	
 	font-size:14px;
 }
 .input-group-addon { border-radius: 0; }
@@ -756,7 +756,7 @@ border-color: #0000cc; }
 		height: 436px;
 	}
 	.tm-home-box-2 { margin: 0 auto 30px; 
-		border:solid 3px green;
+		
 	}
 	.tm-home-box-2-description {
 		width: 125px;
