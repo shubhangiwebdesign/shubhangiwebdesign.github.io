@@ -200,7 +200,7 @@ body { overflow-x: hidden; }
 .tm-yellow-btn:focus {
 	background-color: #ff66ff;
 }
-.tm-form-inner { padding: 35px 30px 5px; overflow:scroll;}
+.tm-form-inner { padding: 35px 30px 5px; }
 
 /*http://cssdeck.com/labs/different-css3-box-shadows-effects*/
 /*==================================================
@@ -305,7 +305,7 @@ body { overflow-x: hidden; }
 	transform: scale(2);
 }
 
-.hotel-search-form .form-group { margin-bottom: 30px; overflow:scroll;}
+.hotel-search-form .form-group { margin-bottom: 30px; }
 
 /*Section 2, index.html */
 .section-margin-top { margin-top: 100px; }
